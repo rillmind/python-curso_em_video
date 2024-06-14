@@ -1,0 +1,39 @@
+Tupla:    
+    Tupla são variáveis compostas e podem ser incializadas com ou sem parenteses '()'.
+    
+    Para fatear uma tupla pode ser usar:
+    '[x:x]' para ir de um ponto na tupla até outro,
+    '[x:]' para ir de um ponto até o fim da tupla,
+    '[:x]' para ir do início até o ponto que deseja da tupla,
+    '[:]' para percorrer toda a tupla,
+    '[-x]' para ir de trás para frente na tupla,
+    
+    As Tuplas são imutáveis!
+    
+    Existem 3 formas de usar o laço 'for' para percorrer uma tupla em python.
+    'for c in x' para mostrar o conteúdo. Onde c é o contador e x é tupla.
+    Para mostrar a posição do contador e o conteúdo existem as outras duas formas:
+    'for c in range(0, len(x)' onde 'c' é o contador e 'len(x)' é a abreviação de 'lenght of x'.
+    'for c, y in enumerate(x)' onde 'c' é o contador, y é o valor da tupla na posição do contador e x é a tupla.
+    
+    Para organizar uma tupla usa-se a função 'sorted()'.
+    
+    Se você tiver duas tuplas e criar uma variável que some essas duas tuplas,
+    o python criará uma nova tupla juntando as duas.
+    E a ordem da soma nessas tupla interfere na ordem da terceira.
+    
+    Para contar quantas vezes aparece determinado valor em uma tupla usa-se o objeto '.count(x)'
+    onde 'x' é o valor que você deseja contar na tupla.
+    
+    Para localizar a primeira aparição de um determinado valor da tupla pode-se usar o objeto 'x.index(y)'.
+    Onde 'x' é a tupla e 'y' é o valor que você deseja localizar na tupla.
+    e nesse outro exemplo: 'x.index(y, z)' o z é de onde você deseja começar a busca.
+    
+    As tuplas no python aceitam serem inicializadas com tipos diferentes de variáveis.
+    Como ints, strings, floats e booleans.
+    
+    Usando a função 'del()' você pode apagar uma tupla inteira, mas não pode apagar elementos dessa tupla.
+    
+    A função 'max(x)' mostra o maior valor dentro da tupla. Onde x é a tupla.
+    A função 'min(x)' mostra o menor valor dentro da tupla. Onde x é a tupla.
+    

@@ -1,0 +1,28 @@
+Listas:
+    A diferença básica entre listas e tuplas é que as listas são mutáveis e são inicializadas pela função 'list()' ou por '[]'.
+    
+    Fateando elementos de uma lista:
+    '[x:x]' para ir de um ponto na lista até outro,
+    '[x:]' para ir de um ponto até o fim da lista,
+    '[:x]' para ir do início até o ponto que deseja da lista,
+    '[:]' para percorrer toda a lista,
+        #obs: é usado para copiar uma lista. 'x = y' vai ligar as listas e não copiar.
+    '[-x]' para ir de trás para frente na lista.
+    
+    Adicionando elementos a uma lista:
+    Usando  o objeto '.append(x)'. Onde 'x' é o elemento que você deseja adicionar.
+    Já o objeto '.insert(y, x)' adiciona um novo elemento em determinada posição. Onde 'x' é o novo elemento e y a posição.
+    
+    Apagando elemntos de uma lista:
+    Palavra reservada del: 'del x[y]'. Onde 'x' é a lista e 'y' o conteúdo que você deseja apagar.
+    O objeto pop 'x.pop(y)'. Onde 'x' é a lista e 'y' é a posição do elemento que você deseja apagar.
+        #Obs: O '.pop()' sem parâmtros apaga o último elemento da lista
+    O objeto remove 'x.remove(y)'. Onde 'x' é a lista e 'y' é exatamente o conteúdo que você deseja apagar.
+    
+    Pode-se também criar um elemento com a função 'range()'.
+    
+    Para ordernar uma lista em python basta usar o objeto 'x.sort()'. Onde 'x' é a lista.
+    E para ordenar inversamente: 'x.sort(reverse=True)'. Onde 'x' é a lista.
+    
+    E para saber o tamanho de uma lista, usa-se a função 'len(x)'. Onde 'x' é a lista.
+    
